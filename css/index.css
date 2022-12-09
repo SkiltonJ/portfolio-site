@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Mukta';
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/blue-grey.jpg);
+  background-size: cover;
+}
+
+.header {
+  text-align: center;
+}
+
+.header > h2, .header > h3 {
+  color: white;
+}
+
+.header > h2 {
+  font-size: 4.5em;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.header > h3 {
+  font-size: 2.5em;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.header > h2 > span {
+  color: #07C5BF;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+  border: white 2px solid;
+  padding: 7px 14px;
+  color: white;
+  font-size: 1.6em;
+  border-radius: 2px;
+}
+
+.button:hover {
+  border: #07C5BF 2px solid;
+  background-color: #07C5BF;
+  opacity: 0.9;
+  transition: all 0.5s;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #002638;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links {
+  display: flex;
+  font-size: 1.2em;
+  margin-right: 8px;
+}
+
+.link {
+  margin: 6px 12px;
+  color: white;
+  font-family: 'Mukta';
+}
+
+.link:hover {
+  color: #FF477B;
+  transition: 0.5s;
+}
+
+.small-logo > img {
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 0.5em;
+}
+
+/* Section 2 */
+
+#about {
+  background: #F5F5F5;
+  padding: 5vh 0 5vh;
+  color: #002638;
+}
+
+.container > h2 {
+  font-size: 3em;
+  border-bottom: 6px solid #002638;
+  margin-bottom: 2.5em;
+}
+
+/* Cards */
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-img {
+
+}
+
+.card-img > img {
+  width: 150px;
+  height: auto;
+}
+/* pink = #FF477B, blue = #07C5BF, dark blue = #002638 color */
+/* Create js link active on whichever page someone is on */
+/* Currently creating cards for my about me section, need to add GH repo/commit */

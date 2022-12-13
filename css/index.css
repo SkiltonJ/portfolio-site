@@ -20,6 +20,11 @@ body {
 .flex {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.w-100 {
+  width: 100%;
 }
 /* Page dimensions */
 .page-1 {
@@ -34,7 +39,7 @@ body {
 }
 .page-3 {
   width: 100vw;
-  height: 100vh;
+  height: 105vh;
   font-family: 'Mukta';
 }
 
@@ -140,7 +145,7 @@ a {
 .container > h2 {
   font-size: 3em;
   border-bottom: 6px solid #002638;
-  margin-bottom: 2.5em;
+  margin-bottom: 1em;
 }
 
 /* Cards */
@@ -163,7 +168,7 @@ a {
 .portrait {
   display: flex;
   justify-content: space-evenly;
-  width: 900px;
+  width: 100%;
   padding: 2em;
   border-top: 2px solid #07C5BF;
   border-bottom: 2px solid #07C5BF;
@@ -196,9 +201,44 @@ a {
 }
 /* Section 3 Portfolio */
 #portfolio {
-  background: #f5f5f5;
+  background: #e4e4e4;
   padding: 5vh 0 5vh;
   color: #002638;
+}
+
+.project-headers {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 26px;
+}
+.project-headers > div {
+  width: 50%;
+}
+.project-headers > div > h4 {
+  margin-top: 0;
+}
+.projects {
+  margin-bottom: 2em;
+}
+.projects > a > img {
+  max-width: 99%;
+  height: auto;
+  transition: all 0.5s;
+  box-shadow: 2px 2px 16px #afafaf;
+}
+#first-link {
+  margin-right: 2em;
+}
+.projects > a > img:hover {
+  scale: 1.1;
+}
+
+.projects-content {
+  max-width: 100%;
+  font-size: 18px;
+  border-top: 2px solid #07C5BF;
+  border-bottom: 2px solid #07C5BF;
 }
 /* pink = #FF477B, blue = #07C5BF, dark blue = #002638 color */
 /* Create js link active on whichever page someone is on */

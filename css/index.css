@@ -41,7 +41,7 @@ body {
   height: 105vh;
 }
 .page-4 {
-  height: 80vh;
+  height: 90vh;
 }
 
 .section-1 {
@@ -253,6 +253,7 @@ a {
 
 #contact-header {
   border-bottom: 6px solid #e4e4e4;
+  margin-top: 2em;
 }
 
 .form-header {
@@ -283,10 +284,6 @@ a {
   font-size: 18px;
 }
 
-.input:focus::placeholder {
-  /* color: transparent; */
-}
-
 .input:focus-visible {
   outline: none;
 }
@@ -305,7 +302,8 @@ form {
 
 footer {
   background-color: #001a27;
-  padding: 10vh;
+  padding: 5vh;
+  position: relative;
 }
 
 .icon {
@@ -315,7 +313,7 @@ footer {
   color: #e4e4e4;
   font-size: 2em;
   font-weight: 400;
-  margin: 0 1rem;
+  margin: 2rem 1rem;
   transition: all 0.5s;
 }
 .icon:hover {
@@ -326,6 +324,35 @@ footer {
 .footer-text {
   color: #afafaf;
   font-family: "Mukta";
+  text-align: center;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.footer-text > span {
+  color: #FF477B;
+}
+
+.home-button {
+  background-color: #FF477B;
+  color: #e4e4e4;
+  height: 60px;
+  width: 60px;
+  color: #e4e4e4;
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0 1rem;
+  transition: all 0.5s;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: -30px;
+  opacity: 0.9;
+}
+.home-button:hover {
+  scale: 1.1;
 }
 /* pink = #FF477B, blue = #07C5BF, dark blue = #002638 color */
 /* Create js link active on whichever page someone is on */

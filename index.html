@@ -7,7 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Italianno&family=Mukta:wght@400;500;600;700&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <script src="javascript/navbar.js"></script>
+  <script src="https://kit.fontawesome.com/59a89c5672.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <section id="home" class="section-1 page-1">
@@ -120,14 +120,34 @@
       <div class="container flex-col">
         <h2 id="contact-header">Contact</h2>
       </div>
+      <div class="form-header">
+        Have a question or want to work together?
+      </div>
       <div class="form-container">
         <form action="mailto:jackson.jaensch14@gmail.com" method="post">
           <input class="input" type="text" name="name" placeholder="Your name" required>
           <input class="input" type="email" name="email" placeholder="YourEmail@email.com" required>
           <textarea class="input" name="message" placeholder="Write your heart's desire"></textarea>
-          <button type="submit"></button>
+          <input class="button" type="submit" id="submit" value="Send">
         </form>
       </div>
     </section>
+    <footer>
+      <div class="flex">
+        <a href="https://github.com/SkiltonJ" target="_blank">
+          <div class="icon flex">
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </a>
+        <a href="https://github.com/SkiltonJ" target="_blank">
+          <div class="icon flex">
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </a>
+      </div>
+      <div>
+        <p class="footer-text">Jackson Jaensch @ 2022</p>
+      </div>
+    </footer>
   </body>
   </html>
